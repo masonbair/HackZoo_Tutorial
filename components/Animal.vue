@@ -1,5 +1,5 @@
 <template>
-  <img @click="state.count += 1" src="/image" />
+  <img @click="state.count += 1" :src="image" />
   <p>Pets received: {{ state.count }}</p>
 </template>
 
