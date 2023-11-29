@@ -1,5 +1,5 @@
 <template>
-  <Animal v-for="animal in animals" :image="animal" />
+  <Animal v-for="animal in animals" :image="/animal" />
 </template>
 
 <script setup>
